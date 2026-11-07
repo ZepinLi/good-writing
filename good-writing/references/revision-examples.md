@@ -8,11 +8,11 @@ Available material: only the draft below. No research or outcome data is supplie
 
 **Draft**
 
-> 我写笔记，是为了把自己想到的东西记下来。把这些东西记录下来以后，我就能在以后重新看到当时的想法。因此，笔记的作用是让未来的自己有机会再看见过去的想法。
+> I take notes to record what I am thinking. Once I have written those thoughts down, I can return to what I thought at the time. The purpose of my notes, then, is to let my future self revisit my past thoughts.
 
 **Revision**
 
-> 我写笔记，是为了以后能重新看到自己当时的想法。
+> I take notes so I can revisit my thoughts later.
 
 **What changed:** The supposed conclusion merely repeated the opening. Compression exposes that there is one idea here. If the author wants to argue that rereading changes their thinking, they need to develop that additional idea; the editor should not invent it to make the paragraph seem deeper.
 
@@ -22,11 +22,11 @@ Available material: a fictional newsletter promises to publish on Tuesday and Th
 
 **Draft**
 
-> 固定发布日期很重要，因为它能让这份通讯更稳定。
+> A fixed publishing schedule matters because it makes this newsletter more consistent.
 
 **Revision**
 
-> 我们承诺每周二、周四发布，是为了让读者知道什么时候来找新一期。这里需要稳定的是读者的预期。
+> We promise to publish every Tuesday and Thursday so readers know when to look for a new issue. The consistency we want is in their expectations.
 
 **What changed:** Repeating stability did not explain the point. A slightly longer version makes the intended relationship visible using the supplied context. It does not claim that the schedule increases readership.
 

@@ -2,7 +2,7 @@
 name: good-writing
 description: Develop ideas through writing and deeply revise essays, opinion pieces, and technical explanations by improving thought and expression together. Use for rough notes or drafts whose reasoning, organization, or prose needs rethinking. Respect proofreading-only requests.
 metadata:
-  version: "2.0.0"
+  version: "2.0.1"
 ---
 
 # Good Writing
