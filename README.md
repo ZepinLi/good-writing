@@ -20,18 +20,19 @@ to say.
 ## Design
 
 ```mermaid
+%%{init: {"htmlLabels": false, "flowchart": {"htmlLabels": false, "padding": 20, "diagramPadding": 20, "subGraphTitleMargin": {"top": 12, "bottom": 16}}}}%%
 flowchart TB
     I["Notes or draft<br/>intent · audience · voice"]
-    subgraph P["Thought and expression evolve together"]
+    subgraph P["Writing as thinking"]
         direction LR
-        T["Clarify meaning<br/>point · relationships · depth"] <-->|"reshape"| W["Revise prose<br/>shorten · expand · reorder"]
-        W --> R["Read afresh<br/>flow · friction · rhythm"]
+        T["Clarify meaning<br/>point · relationships<br/>depth"] <-->|"reshape"| W["Revise prose<br/>shorten · expand<br/>reorder"]
+        W --> R["Read afresh<br/>flow · friction<br/>rhythm"]
         R -. "discover a gap" .-> T
     end
     I --> P
-    P --> G("Review candidate<br/>meaning · fidelity · scope")
+    P --> G("Review candidate<br/>meaning · fidelity<br/>scope")
     G -. "revisit a passage" .-> P
-    G -->|"ready"| O["Clearer ideas · natural prose<br/>copy-ready text"]
+    G -->|"ready"| O["Clearer ideas<br/>natural prose<br/>copy-ready text"]
 
     classDef input fill:#f6f8fa,stroke:#57606a,color:#24292f;
     classDef work fill:#0d1117,stroke:#58a6ff,color:#f0f6fc;
