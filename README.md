@@ -1,12 +1,69 @@
-# good-writing
+# Good Writing
 
-An Agent Skill for developing ideas through writing, based on Paul Graham's [Good Writing](https://www.paulgraham.com/goodwriting.html).
+An Agent Skill for developing ideas through writing, based on Paul Graham's
+[Good Writing](https://www.paulgraham.com/goodwriting.html). Use it to turn notes
+into essays or deeply revise arguments, opinion pieces, and technical explanations.
 
-## Approach
+> **Better sentences can reveal better thoughts.**
 
-- Revise thought and expression together through small changes and fresh reading.
-- Let sentence structure follow the idea, preserving the author's language and voice.
-- Keep facts and qualifications intact; readable prose does not establish truth.
+## Core idea
+
+Writing helps determine what you mean. An awkward sentence can expose a missing
+relationship; a repeated phrase can reveal a duplicated idea. Reworking the prose
+can change the argument, and a clearer argument can suggest better prose.
+
+The aim is a worthwhile idea developed to the right depth, expressed in a way the
+reader can follow naturally. This requires choosing the conclusions that matter,
+giving subtle points enough room, and recognizing when a passage has nothing more
+to say.
+
+## Design
+
+```mermaid
+flowchart TB
+    I["Notes or draft<br/>intent · audience · voice"]
+    subgraph P["Thought and expression evolve together"]
+        direction LR
+        T["Clarify meaning<br/>point · relationships · depth"] <-->|"reshape"| W["Revise prose<br/>shorten · expand · reorder"]
+        W --> R["Read afresh<br/>flow · friction · rhythm"]
+        R -. "discover a gap" .-> T
+    end
+    I --> P
+    P --> G("Review candidate<br/>meaning · fidelity · scope")
+    G -. "revisit a passage" .-> P
+    G -->|"ready"| O["Clearer ideas · natural prose<br/>copy-ready text"]
+
+    classDef input fill:#f6f8fa,stroke:#57606a,color:#24292f;
+    classDef work fill:#0d1117,stroke:#58a6ff,color:#f0f6fc;
+    classDef result fill:#dafbe1,stroke:#1a7f37,color:#116329;
+    class I input;
+    class T,W,R,G work;
+    class O result;
+    style P fill:transparent,stroke:#8c959f,color:#8c959f;
+```
+
+Work starts wherever wording or reasoning becomes unclear. A discovery can change
+either one; only passages with a remaining problem need another pass.
+
+| Mechanism | Design choice |
+| --- | --- |
+| **Shake the bin** | Try modest changes in length or arrangement. Keep revisions that improve meaning and readability together. |
+| **First-reader feedback** | Reread for missing relationships, misplaced qualifications, and repetition. Easier reading makes these problems easier to notice. |
+| **Natural rhythm** | Let sentence structure follow the complexity of the thought. Preserve a longer sentence when its qualification matters. |
+| **Fidelity throughout** | Preserve facts, uncertainty, and the author's intent. Explain consequential changes to the thesis rather than silently replacing it. |
+
+The skill preserves the requested language, voice, audience, and editing scope.
+Proofreading requests receive surface corrections; substantive revisions return
+usable text with brief notes only for material changes or unresolved questions.
+Iteration stops when further changes offer little improvement beyond taste.
+
+## Limits
+
+This approach is strongest where writing develops ideas. When prose reports an
+experiment, something built, or someone else's work, its fluency does not
+establish the quality of that work. Internal consistency also cannot establish
+that the premises are true. The skill preserves this boundary without imposing
+a separate research-audit workflow.
 
 ## Install
 
